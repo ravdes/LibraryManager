@@ -1,0 +1,17 @@
+version: '3.8'
+name: ${CONTAINER_NAME} #name of the container that can be set in .env
+services:
+
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}    #password that can be set in .env
+      MYSQL_DATABASE: ${MYSQL_DB_NAME}     #name of the database that can be set in .env
+    ports:
+      - "${MYSQL_PORT}:3306"    #port that can be set in .env
+
+
+
+
