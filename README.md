@@ -40,8 +40,8 @@ on MySQL database which is being run on a Docker container.
 
 # Utilities
 
+![github image](https://github.com/ravdes/LibraryManager/assets/107648518/0e166873-f7e7-4af7-9cd7-254c7275ed4a)
 
-![github image](https://github.com/ravdes/LibraryManager/assets/107648518/14cfae4a-0270-4221-9604-5004c5b45822)
 
 # Search
 
